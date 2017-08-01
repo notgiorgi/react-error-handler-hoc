@@ -2,10 +2,11 @@
   "name": "error-handler-hoc",
   "version": "1.0.0",
   "description": "HOC for catching errors in react components",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "module": "src/index.js",
   "scripts": {
-    "test": ""
+    "build": "cross-env NODE_ENV=production rollup --config",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -28,11 +29,18 @@
     "react": "next"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.0.1",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1"
   }
 }

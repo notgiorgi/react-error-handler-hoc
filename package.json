@@ -25,7 +25,7 @@
   "homepage": "https://github.com/notgiorgi/react-error-handler-hoc#readme",
   "dependencies": {
     "lodash.curry": "^4.1.1",
-    "react": "^15.6.1"
+    "react": "next"
   },
   "devDependencies": {
     "eslint": "^4.3.0",

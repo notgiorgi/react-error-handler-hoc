@@ -14,8 +14,11 @@ var config = {
       exclude: 'node_modules/**'
     })
   ],
-  dest: pkg['main'],
-  format: 'es'
+  targets: [
+    { dest: 'dist/bundle.cjs.js', format: 'cjs' },
+    { dest: 'dist/bundle.umd.js', format: 'umd' },
+    { dest: 'dist/bundle.es.js', format: 'es' }
+  ]
 }
 
 if (env === 'production') {

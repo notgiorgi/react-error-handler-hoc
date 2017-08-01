@@ -2,8 +2,8 @@
   "name": "error-handler-hoc",
   "version": "1.0.0",
   "description": "HOC for catching errors in react components",
-  "main": "dist/index.js",
-  "module": "src/index.js",
+  "main": "dist/umd/index.js",
+  "module": "dist/index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rollup --config",
     "prepublish": "npm run build"

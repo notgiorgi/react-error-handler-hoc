@@ -1,4 +1,4 @@
-# Error handler HOC
+# Error handler HOC for React 16
 
 Error handler HOC gives you an ability to wrap your components with error handling logic which is most of the times repetitive
 

@@ -52,7 +52,7 @@ export default ErrorReporter(
 
 # API
 
-## withErrorHandler
+### withErrorHandler
 ```js
 function withErrorHandler(
     errorCallback: function,
@@ -71,7 +71,7 @@ withErrorHandler(errReporter)(Fallback)(MyComponent)
 
 and etc. See more about currying in lodash docs [here](https://lodash.com/docs/4.17.4#curry)
 
-## errorCallback
+### errorCallback
 
 ```js
 function errorCallback(
@@ -83,10 +83,10 @@ function errorCallback(
 
 `errorCallback` function is the first argument of the HOC and it gets called when the exception happens in render or lifecycle methods. It gets `error`, `errorInfo` and props that were passed to component as arguments.
 
-## FallbackComponent
+### FallbackComponent
 
 FallbackComponent is the second argument of the HOC and is rendered if the exception happens. Recieves same three arguments as props as `errorCallback` (`error`, `errorInfo` and `props`)
 
-## Component
+### Component
 
 Which component to render.

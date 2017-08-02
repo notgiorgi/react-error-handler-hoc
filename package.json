@@ -1,6 +1,6 @@
 {
   "name": "error-handler-hoc",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "HOC for catching errors in react components",
   "main": "dist/bundle.umd.js",
   "module": "dist/bundle.umd.js",

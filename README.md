@@ -4,7 +4,7 @@
 
 Error handler HOC gives you an ability to wrap your components with error handling logic which is most of the times repetitive
 
-[Demo on codepen](https://codepen.io/notgiorgi/pen/pryOwg?editors=0010) (TO BE UPTATED)
+[Demo on codepen](https://codepen.io/notgiorgi/pen/pryOwg?editors=0010)
 
 # Installation
 

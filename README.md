@@ -1,6 +1,8 @@
 # Error handler HOC for React 16
 
 [![Build Status](https://travis-ci.org/notgiorgi/react-error-handler-hoc.svg?branch=master)](https://travis-ci.org/notgiorgi/react-error-handler-hoc)
+[![npm](https://img.shields.io/npm/v/error-handler-hoc.svg)](https://www.npmjs.com/package/error-handler-hoc)
+
 
 Error handler HOC gives you an ability to wrap your components with error handling logic which is most of the times repetitive
 

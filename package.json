@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "HOC for catching errors in react components",
   "main": "dist/bundle.umd.js",
-  "module": "dist/bundle.es.js",
+  "module": "dist/bundle.umd.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack -p --config ./webpack.config.js",
     "build:dev": "cross-env NODE_ENV=production webpack --config ./webpack.config.js",

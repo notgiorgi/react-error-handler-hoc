@@ -6,6 +6,7 @@
 
 Error handler HOC gives you an ability to wrap your components with error handling logic which is most of the times repetitive
 
+[Article on medium](https://codeburst.io/catching-exceptions-using-higher-order-components-in-react-16-b8a401853a10)
 [Demo on codepen](https://codepen.io/notgiorgi/pen/pryOwg?editors=0010)
 
 # Installation

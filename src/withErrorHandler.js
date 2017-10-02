@@ -25,8 +25,8 @@ function withErrorHandler (errorCallback, FallbackComponent, Component) {
         return (
           <FallbackComponent
             {...this.props}
-            error={error}
-            errorInfo={errorInfo}
+            error={this.state.error}
+            errorInfo={this.state.errorInfo}
           />
         )
       }
